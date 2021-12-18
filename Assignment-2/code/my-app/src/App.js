@@ -1,18 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Profile from './Profile';
 
+function App() {
+  return (
+    <div className="App">
+        <img src={"https://www.w3schools.com/howto/img_avatar.png"} className="profile" alt="profileimg" />
+        <Profile />
+      
 
-
-function App(props) {
- const {employee}=props;
-    
-return(
-  <div className="container">
-  {/* Start your React code here */}
-</div>
-)
+        
+    </div>
+  );
 }
-
-
 
 export default App;
